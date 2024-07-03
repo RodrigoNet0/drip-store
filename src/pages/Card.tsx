@@ -9,7 +9,7 @@ import {
 
 export default function CardPage() {
   return (
-    <Card className="bg-slete-500 w-96 shadow-md shadow-black">
+    <Card className="bg-slate-500 w-96 shadow-md shadow-black">
       <CardHeader>
         <CardTitle>Cadastro do Bolsa Escola</CardTitle>
         <CardDescription>Bolsa escola Brasil, um país de todes! </CardDescription>
