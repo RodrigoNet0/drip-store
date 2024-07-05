@@ -3,6 +3,8 @@ import { SetStateAction, useEffect, useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { CiShoppingCart } from "react-icons/ci";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
+
 
 export default function Header() {
     const [search, setSearch] = useState("");
@@ -68,15 +70,16 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="flex items-center gap-4">
-                    <button className=" text-[#474747] rounded-full px-2 py-1 underline">
+                    <Link className=" text-[#474747] rounded-full px-2 py-1 underline" href="./Card">
                         Cadastre-se
-                    </button>
+                    </Link>
                     <button className="bg-[#c92071] text-[#F5F5F5] rounded-lg px-5 py-2 w-24 h-10">
                         Entrar
                     </button>
                     <button className="text-[#c92071] rounded-full px-4 py-2">
                         <CiShoppingCart size={24} />
                     </button>
+                    
                 </div>
             </div>
         </header>
