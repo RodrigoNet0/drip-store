@@ -1,6 +1,8 @@
-
 // import CardPage from "@/pages/Card";
-import Dash from "@/pages/Dash";
+// import Dash from "@/pages/Dashboard/Dash";
+import SubHeader from "@/pages/SubHeader/SubHeader";
+import Header from "@/pages/Header/Header";
+import HeroSection from "@/pages/HeroSection/HeroSection";
 
 
 
@@ -9,9 +11,9 @@ import Dash from "@/pages/Dash";
 export default function Home() {
   return (
     <> 
-       {/* <Header />  */}
-        {/* <CardPage />  */}
-    <Dash />
+       <Header /> 
+    <SubHeader />
+    <HeroSection />
     </>
   );
 }

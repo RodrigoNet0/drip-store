@@ -41,9 +41,10 @@ export default function Header() {
     }, []);
 
     return (
-        <header className="bg-white w-full pt-4 pb-2">
+        <header className="flex flex-start p-10 bg-white w-full pt-4 pb-2">
             <div className="flex justify-between items-center w-full h-16 px-4 py-2">
                 <div className="flex items-center gap-4">
+                    
                     <img
                         src="./logo.png"
                         alt="Logo da Digital Store"
@@ -54,7 +55,7 @@ export default function Header() {
                     <h1 className="text-[#c92071] text-2xl font-bold">Digital Store</h1>
                 </div>
                 <div className="flex items-center gap-4 flex-1 max-w-lg">
-                    <div className="relative flex w-full">
+                    <div className="relative flex w-full ">
                         <Input
                             className="w-full h-11 pl-10 pr-4 py-2 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-gray-500 transition-colors"
                             type="search"
