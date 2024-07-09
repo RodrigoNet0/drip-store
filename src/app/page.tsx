@@ -5,6 +5,7 @@ import HeroSection from "@/pages/HeroSection/HeroSection";
 import Collection from "@/pages/Collection/Collection";
 import Header from "@/pages/Header/Header";
 import SectionCollection from "@/pages/SectionCollection/SectionCollection";
+import Produtos from "@/pages/Produtos/Produtos";
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection /> 
       <Collection />
       <SectionCollection />
+      <Produtos />
     </>
   );
 }

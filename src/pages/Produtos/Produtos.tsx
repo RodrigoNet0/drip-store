@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 export default function Produtos() {
     return (
         <div>
-            <div className="flex justify-between items-center gap-4 p-4">
+            <div className="flex justify-between p-10">
                 <h2 className="text-[#474747] font-bold">Produtos em alta</h2>
                 <div className="flex gap-4 items-center">
                     <p className="text-[#C92071]">Ver todos</p>
