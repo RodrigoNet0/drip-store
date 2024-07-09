@@ -4,6 +4,7 @@ import SubHeader from "@/pages/SubHeader/SubHeader";
 import HeroSection from "@/pages/HeroSection/HeroSection";
 import Collection from "@/pages/Collection/Collection";
 import Header from "@/pages/Header/Header";
+import SectionCollection from "@/pages/SectionCollection/SectionCollection";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <SubHeader />
       <HeroSection /> 
       <Collection />
+      <SectionCollection />
     </>
   );
 }
