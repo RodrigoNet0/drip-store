@@ -11,9 +11,20 @@ const data = [
   { name: 'Jul', uv: 3490, pv: 4300, amt: 2100 },
 ];
 
-const MainContent = () => {
+interface MainContentProps {
+  toggleSidebar: () => void;
+  
+}
+
+const MainContent: React.FC<MainContentProps> = ({ toggleSidebar }) => {
   return (
     <div className="flex-1 p-8">
+      <button
+        className="mb-4 p-2 bg-[#c92071] text-white text-xl font-bold rounded-full"
+        onClick={toggleSidebar}
+      >
+        Open Sidebar
+      </button>
       <h1 className="text-[#f161a7] text-2xl font-bold mb-4">Dashboard</h1>
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-lg font-semibold mb-4">Sales Overview</h2>
