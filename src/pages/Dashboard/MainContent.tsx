@@ -13,8 +13,9 @@ const data = [
 
 interface MainContentProps {
   toggleSidebar: () => void;
-  
 }
+
+
 
 const MainContent: React.FC<MainContentProps> = ({ toggleSidebar }) => {
   return (
